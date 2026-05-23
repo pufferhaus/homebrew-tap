@@ -5,21 +5,21 @@
 class Liste < Formula
   desc "Tasks in markdown — a CLI for humans and AI agents"
   homepage "https://github.com/pufferhaus/liste"
-  version "1.1.2"
+  version "1.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/pufferhaus/liste/releases/download/v1.1.2/liste_1.1.2_darwin_amd64.tar.gz"
-      sha256 "5b7be6698b17556d67946fe9de3a17832720fb8bf8f27ef47f4631c3b572ce1d"
+      url "https://github.com/pufferhaus/liste/releases/download/v1.1.3/liste_1.1.3_darwin_amd64.tar.gz"
+      sha256 "fcec584075b6a32051b9d8853eef5ea056c2a5e9bab8e93443febcbab33c7fc6"
 
       define_method(:install) do
         bin.install "liste"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/pufferhaus/liste/releases/download/v1.1.2/liste_1.1.2_darwin_arm64.tar.gz"
-      sha256 "5b215927e34bb1bb54e195bc390dbfa9a5e42291a24bac26c260f088917cedff"
+      url "https://github.com/pufferhaus/liste/releases/download/v1.1.3/liste_1.1.3_darwin_arm64.tar.gz"
+      sha256 "b86573b215f2d6aee2442f4a249f475333701802bf6972af6356dba24aab62e3"
 
       define_method(:install) do
         bin.install "liste"
@@ -29,15 +29,15 @@ class Liste < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/pufferhaus/liste/releases/download/v1.1.2/liste_1.1.2_linux_amd64.tar.gz"
-      sha256 "0ae3ad9edc6a0fa83f8a92d581715de9681f7671a88eda3a4ce217656d8c6170"
+      url "https://github.com/pufferhaus/liste/releases/download/v1.1.3/liste_1.1.3_linux_amd64.tar.gz"
+      sha256 "dfceb879bfb28520ac85b9c543f0569bfbf2ebb2c20154c857639232d795275a"
       define_method(:install) do
         bin.install "liste"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/pufferhaus/liste/releases/download/v1.1.2/liste_1.1.2_linux_arm64.tar.gz"
-      sha256 "fcdb9780ee763765e40d16e090f49f4c66fd8dac7ae546a1855aa105e8b4198b"
+      url "https://github.com/pufferhaus/liste/releases/download/v1.1.3/liste_1.1.3_linux_arm64.tar.gz"
+      sha256 "f18a2d64dc9b6d60f6dec5c1e5e1573117ca6cf34e3354244b8f3bd27fbdf805"
       define_method(:install) do
         bin.install "liste"
       end
