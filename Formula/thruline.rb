@@ -1,8 +1,8 @@
 class Thruline < Formula
   desc "Minimal DSL and runtime for deterministic multiagent pipelines"
   homepage "https://thruline.work"
-  url "https://github.com/pufferhaus/thruline/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "15efca8a60dce22fa0bd4e85e831736bf6b817fd46cdfb9b935c3532f99045ae"
+  url "https://github.com/pufferhaus/thruline/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "1d66a0cb851bb1707008f3791fabf90df9752c567a4b836bdb4b71effae2eefc"
   license "MIT"
   head "https://github.com/pufferhaus/thruline.git", branch: "main"
 
