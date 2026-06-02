@@ -1,8 +1,8 @@
 class Thruline < Formula
   desc "Minimal DSL and runtime for deterministic multiagent pipelines"
   homepage "https://thruline.work"
-  url "https://github.com/dove-tools/thruline/archive/refs/tags/v0.0.0-taptest.tar.gz"
-  sha256 "7a1aaff447ac9e3b0f033f49b2bdadb324369233b3eb5ca3b0903da93a8dfd80"
+  url "https://github.com/dove-tools/thruline/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "25ab729ca895279b3ff86a33c1243fbbbc483cb2348121b599291d93aa947474"
   license "MIT"
   head "https://github.com/dove-tools/thruline.git", branch: "main"
 
